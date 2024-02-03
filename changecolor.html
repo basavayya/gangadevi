@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @keyframes moverect {
+        0%{
+        left: 0%;
+        }
+        50%{
+            left: 50%;
+        }
+        100%{
+            left: 100%;
+        }
+      }
+      .rectangle{
+        width:  200px;
+        height: 200px;
+        background-color: aqua;
+        position: relative;
+        animation:moverect 4s linear infinite;
+      }
+    </style>
+</head>
+<body>
+    <div class="rectangle"></div>
+</body>
+</html>
